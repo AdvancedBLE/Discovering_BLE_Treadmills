@@ -1,4 +1,4 @@
-# Discover how a BLE treadmill communicates
+# Discovering how a BLE treadmill communicates
 This guide will focus on how to find out how your treadmill communicates over Bluetooth (BLE). This enables one to understand what functionality your treadmill has via Bluetooth which can then be used to read and/or control it.
 
 ## Getting the basics.
@@ -45,14 +45,22 @@ The next steps will enable us to record how your treadmill is connecting, readin
 First things first. We will be listing to the Bluetooth communication. This called "snooping" and the process will be differtent depending on the device used. We will focus on using Andriod and iOS devices
 
 <details>
-  <summary>Using Android</summary>
-  1. Install the nRF connect app <br>
-  Note: make sure the treadmill is not connected to any devices or apps.<br>
-  2. Click `SCAN`. This will scan all the available Bluetooth devices.<br>
-  3. Find your treadmill in the list and click `CONNECT`.<br>
-  You will now be connected to the treadmill via Bluetooth.<br>
-  4. Make sure you are on the the `CLIENT` tab at the top.<br>
-  5. 
+  <summary>Android BLE Snooping</summary>
+1.  Enable developer mode.<br>
+Each manufacturer has their own steps to enable this but a quick Google will get you there.<br>
+e.g. https://www.google.com/search?q=samsung+s22+enable+developer+mode<br>
+2.  Go to Settings<br>
+3.  Go into developer options<br>
+4.  Enable the option Enable Bluetooth HCI snoop log<br>
+5.  restart your phone<br>
+6.  open your machine app and play with it collecting inclination and speed<br>
+7.  Disable the option Enable Bluetooth HCI snoop log<br>
+8.  in Developer Options: Bug report->Full report<br>
+9. wait a random amount of time (10-20 seconds)<br>
+10. A notification will appear at the top of the device. Click on it, share, email it to yourself. If it doesn't appear you need to use ADB to pull the file from the phone itself<br>
+11. You'll get a zip file with the entire report. In the FS/Data/Log/bt directory of the zipfile is the file you want.
+attach the log file in a new issue with a short description of the steps you did in the app when you used it<br>
+
   
 </details>
 
