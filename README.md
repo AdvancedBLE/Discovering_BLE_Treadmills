@@ -48,19 +48,17 @@ First things first. We will be listing to the Bluetooth communication. This call
   <summary>Android BLE Snooping</summary>
 1.  Enable developer mode.<br>
 Each manufacturer has their own steps to enable this but a quick Google will get you there.<br>
-e.g. https://www.google.com/search?q=samsung+s22+enable+developer+mode<br>
+e.g. <a href="https://www.google.com/search?q=samsung+s22+enable+developer+mode">Google Search Example</a><br>
 2.  Go to Settings<br>
 3.  Go into developer options<br>
 4.  Enable the option Enable Bluetooth HCI snoop log<br>
 5.  restart your phone<br>
 6.  Next we record some predefined communications. <br>
-[test process](https://github.com/AdvancedBLE/Discovering_BLE_Treadmills/blob/main/README.md#test-process)
+[test process](https://github.com/AdvancedBLE/Discovering_BLE_Treadmills/blob/main/README.md#test-process) <br>
 7.  Disable the option Enable Bluetooth HCI snoop log<br>
-8.  in Developer Options: Bug report->Full report<br>
-9. wait a random amount of time (10-20 seconds)<br>
-10. A notification will appear at the top of the device. Click on it, share, email it to yourself. If it doesn't appear you need to use ADB to pull the file from the phone itself<br>
-11. You'll get a zip file with the entire report. In the FS/Data/Log/bt directory of the zipfile is the file you want.
-attach the log file in a new issue with a short description of the steps you did in the app when you used it<br>
+8.  In Developer Options: Bug report->Full report<br>
+9.  Once completed a notification will appear at the top of the device. Click on it, share it via e.g. Discord. <br>
+10. This zip file will contain the entire report. In the zip file look for the folder called **FS/Data/Log/bt**. This is the folder contains the raw Bluetooth communication.<br>
 
   
 </details>
