@@ -53,7 +53,7 @@ e.g. https://www.google.com/search?q=samsung+s22+enable+developer+mode<br>
 3.  Go into developer options<br>
 4.  Enable the option Enable Bluetooth HCI snoop log<br>
 5.  restart your phone<br>
-6.  open your machine app and play with it collecting inclination and speed<br>
+6.  Follow the [test process](https://github.com/AdvancedBLE/Discovering_BLE_Treadmills/blob/main/README.md#test-process) <br>
 7.  Disable the option Enable Bluetooth HCI snoop log<br>
 8.  in Developer Options: Bug report->Full report<br>
 9. wait a random amount of time (10-20 seconds)<br>
