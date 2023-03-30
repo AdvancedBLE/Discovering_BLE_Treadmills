@@ -19,14 +19,11 @@ This guide will help us get:
   1. Install the nRF Connect app <br>
   Note: make sure the treadmill is not connected to any devices or apps.<br>
   2. Click `SCAN`. This will scan all the available Bluetooth devices.<br>
-  <br>
   You Should now see your treadmill listed in the device list under the `SCANNER` tab.<br>
-  <br>
   3. Click on the device name. Will will expand and provide some more information. You are looking for the following:<br>
   <strong>Complete Local Name<br>
     Service Data<br></strong>
   Take a screen shot of this information.<br>
-  <br>
   Next we will find the Characteristics. <br>
   4. Click the `CONNECT` next to your device name.<br>
   You will now be connected to the treadmill via Bluetooth.<br>
