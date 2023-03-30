@@ -10,7 +10,7 @@ https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-mobile
 ### Basic Info Guide
 <details>
   <summary>Using Android</summary>
-  1. Install the nRF app
+  1. Install the nRF app <br>
   2. Go to the 
   
 </details>
