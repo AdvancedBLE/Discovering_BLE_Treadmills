@@ -52,9 +52,9 @@ e.g. <a href="https://www.google.com/search?q=samsung+s22+enable+developer+mode"
 2.  Go to Settings<br>
 3.  Go into developer options<br>
 4.  Enable the option Enable Bluetooth HCI snoop log<br>
-5.  restart your phone<br>
-6.  Next we record some predefined communications. <br>
-<a href="https://github.com/AdvancedBLE/Discovering_BLE_Treadmills/blob/main/README.md#test-process">test process</a> <br>
+5.  Restart your phone<br>
+6.  Next record a predefined communicaiton steps with the treadmill
+<a href="https://github.com/AdvancedBLE/Discovering_BLE_Treadmills/blob/main/README.md#test-process">(test process).</a> <br>
 7.  Disable the option Enable Bluetooth HCI snoop log<br>
 8.  In Developer Options: Bug report->Full report<br>
 9.  Once completed a notification will appear at the top of the device. Click on it, share it via e.g. Discord. <br>
@@ -76,6 +76,3 @@ In order to listing in on communications you will need to connect to an app that
 8.  Decreased the speed at the treadmill to 3.0 (in 0.1 km/h steps)
 9.  Stopped the activity within the app and closed the app
 10. Because the app is still keeping the connection I killed / forced stop the app
-
-### Upload / Share
-Now we can share/send the snooping files. 
