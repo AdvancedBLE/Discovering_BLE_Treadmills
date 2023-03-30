@@ -36,13 +36,7 @@ This guide will help us get:
 <details>
   
   <summary>nRF Connect iOS</summary>
-  1. Install the nRF Connect app <br>
-  Note: make sure the treadmill is not connected to any devices or apps.<br>
-  2. Click `SCAN`. This will scan all the available Bluetooth devices.<br>
-  3. Find your treadmill in the list and click `CONNECT`.<br>
-  You will now be connected to the treadmill via Bluetooth.<br>
-  4. Make sure you are on the the `CLIENT` tab at the top.<br>
-  5. Coming Soon
+  1. Coming Soon
   
 </details>
 
@@ -82,12 +76,13 @@ e.g. <a href="https://www.google.com/search?q=samsung+s22+enable+developer+mode"
 In order to listing in on communications you will need to connect to an app that already works with your treadmill. The manufacturer usually has a basic app which you can use for this.
 
 1.  Started the app and connected to your treadmill.
-2.  Started an activity (5 km targed, starting speed 5.3 km/h, inclination: 1.50%)
-3.  Start the activity
-4.  Increased the speed in the app - up to 12.2 km/h (several steps between - because the app is awful!)
-5.  Increased inclination in the app - up to 12.0% (several steps between - because the app is awful!)
-6.  Increased the inclination at the treadmill to 15.0% (in 0.5% steps)
-7.  Decreased the inclination at the treadmill to 0.0% (in 0.5% steps)
-8.  Decreased the speed at the treadmill to 3.0 (in 0.1 km/h steps)
-9.  Stopped the activity within the app and closed the app
-10. Because the app is still keeping the connection I killed / forced stop the app
+2.  Start the treadmill, ideally via the app then set:
+    - speed: 5.3 km/h
+    - incline: 1.50%
+3.  Increased the speed in the app - up to 12.2 km/h
+4.  Increased incline in the app - up to 12.0%
+5.  Increased the incline of the treadmill to 15.0% (in 0.5% steps)
+6.  Decreased the incline of the treadmill to 0.0% (in 0.5% steps)
+7.  Decreased the speed of the treadmill to 3.0 (in 0.1 km/h steps)
+8.  Stopped the activity within the app and closed the app
+9.  Because the app is still keeping the connection I killed / forced stop the app
