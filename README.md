@@ -5,7 +5,7 @@ This guide will focus on how to find out how your treadmill communicates over Bl
 To start with we will find out some basic informaiton about the treadmill Bluetooth. We will be using an app called nRF to help us find the needed information.
 
 **nRF Connect app**
-https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-mobile
+<a href="https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-mobile">Offical Website<a/> 
 
 ### Basic Info Guide
 This guide will help us get:
@@ -54,7 +54,7 @@ e.g. <a href="https://www.google.com/search?q=samsung+s22+enable+developer+mode"
 4.  Enable the option Enable Bluetooth HCI snoop log<br>
 5.  restart your phone<br>
 6.  Next we record some predefined communications. <br>
-[test process](https://github.com/AdvancedBLE/Discovering_BLE_Treadmills/blob/main/README.md#test-process) <br>
+<a href="https://github.com/AdvancedBLE/Discovering_BLE_Treadmills/blob/main/README.md#test-process">test process</a> <br>
 7.  Disable the option Enable Bluetooth HCI snoop log<br>
 8.  In Developer Options: Bug report->Full report<br>
 9.  Once completed a notification will appear at the top of the device. Click on it, share it via e.g. Discord. <br>
