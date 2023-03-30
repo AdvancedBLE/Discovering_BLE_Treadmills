@@ -19,7 +19,7 @@ This guide will help us get:
   1. Install the nRF Connect app <br>
   Note: make sure the treadmill is not connected to any devices or apps.<br>
   2. Click `SCAN`. This will scan all the available Bluetooth devices.<br>
-  You Should now see your treadmill listed in the device list under the `SCANNER` tab.<br>
+  You should now see your treadmill listed in the device list under the `SCANNER` tab.<br>
   3. Click on the device name. Will will expand and provide some more information. You are looking for the following:<br>
   <strong>Complete Local Name<br>
     Service Data<br></strong>
@@ -41,7 +41,7 @@ This guide will help us get:
 </details>
 
 ## Getting read and write information
-The next steps will enable us to record how your treadmill is connecting, reading data and controllling the treadmill. This step can be a bit invloved but if followed step-by-step anyone can do it :-)
+The next steps will enable us to record how your treadmill is connecting, reading data and controllling the treadmill. This step can be a bit involved but if followed step-by-step anyone can do it :-)
 
 ### Snooping
 First things first. We will be listing to the Bluetooth communication. This called "snooping" and the process will be differtent depending on the device used. We will focus on using Andriod and iOS devices
@@ -81,8 +81,8 @@ In order to listing in on communications you will need to connect to an app that
     - incline: 1.50%
 3.  Increased the speed in the app - up to 12.2 km/h
 4.  Increased incline in the app - up to 12.0%
-5.  Increased the incline of the treadmill to 15.0% (in 0.5% steps)
-6.  Decreased the incline of the treadmill to 0.0% (in 0.5% steps)
-7.  Decreased the speed of the treadmill to 3.0 (in 0.1 km/h steps)
+5.  Increased the incline in the app to 15.0% (in 0.5% steps)
+6.  Decreased the incline in the app to 0.0% (in 0.5% steps)
+7.  Decreased the speed in the app to 3.0 (in 0.1 km/h steps)
 8.  Stopped the activity within the app and closed the app
 9.  Because the app is still keeping the connection I killed / forced stop the app
