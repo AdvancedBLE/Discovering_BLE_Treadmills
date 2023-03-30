@@ -7,10 +7,10 @@ To start with we will find out some basic informaiton about the treadmill Blueto
 **nRF app**
 https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-mobile
 
-## Guide
+### Basic Info Guide
 <details>
   <summary>Using Android</summary>
   1. Install the nRF app
-  2.
+  2. Go to the 
   
 </details>
