@@ -45,7 +45,7 @@ This guide will help us get:
   3. Find your treadmill in the list and click `CONNECT`.<br>
   You will now be connected to the treadmill via Bluetooth.<br>
   4. Make sure you are on the the `CLIENT` tab at the top.<br>
-  5. 
+  5. Comming Soon
   
 </details>
 
@@ -57,6 +57,7 @@ First things first. We will be listing to the Bluetooth communication. This call
 
 <details>
   <summary>Android BLE Snooping</summary>
+  
 1.  Enable developer mode.<br>
 Each manufacturer has their own steps to enable this but a quick Google will get you there.<br>
 e.g. <a href="https://www.google.com/search?q=samsung+s22+enable+developer+mode">Google Search Example</a><br>
@@ -70,7 +71,13 @@ e.g. <a href="https://www.google.com/search?q=samsung+s22+enable+developer+mode"
 8.  In Developer Options: Bug report->Full report<br>
 9.  Once completed a notification will appear at the top of the device. Click on it, share it via e.g. Discord. <br>
 10. This zip file will contain the entire report. In the zip file look for the folder called **FS/Data/Log/bt**. This is the folder contains the raw Bluetooth communication.<br>
-
+  
+</details>
+  
+<details>
+<summary>iOS BLE Snooping</summary>
+  
+1.  Comming Soon
   
 </details>
 
