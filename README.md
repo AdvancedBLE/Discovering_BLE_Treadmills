@@ -45,7 +45,7 @@ This guide will help us get:
   3. Find your treadmill in the list and click `CONNECT`.<br>
   You will now be connected to the treadmill via Bluetooth.<br>
   4. Make sure you are on the the `CLIENT` tab at the top.<br>
-  5. Comming Soon
+  5. Coming Soon
   
 </details>
 
@@ -77,7 +77,7 @@ e.g. <a href="https://www.google.com/search?q=samsung+s22+enable+developer+mode"
 <details>
 <summary>iOS BLE Snooping</summary>
   
-1.  Comming Soon
+1.  Coming Soon
   
 </details>
 
