@@ -9,8 +9,9 @@ To start with we will find out some basic informaiton about the treadmill Blueto
 
 ### Basic Info Guide
 This guide will help us get:
-1. Device Name
+1. Device Name/Complete Local Name
 2. Services
+3. Characteristics
 <details>
   
   <summary>nRF Connect Android</summary>
@@ -18,11 +19,21 @@ This guide will help us get:
   1. Install the nRF connect app <br>
   Note: make sure the treadmill is not connected to any devices or apps.<br>
   2. Click `SCAN`. This will scan all the available Bluetooth devices.<br>
-  3. Find your treadmill in the list and click `CONNECT`.<br>
+  <br>
+  You Should now see your treadmill listed in the device list under the `SCANNER` tab.<br>
+  <br>
+  3. Click on the device name. Will will expand and provide some more information. You are looking for the following:<br>
+  **Complete Local Name**<br>
+  **Service Data**<br>
+  Take a screen shot of this information.<br>
+  <br>
+  Next we will find the Characteristics. <br>
+  3. Click the `CONNECT` next to your device name.<br>
   You will now be connected to the treadmill via Bluetooth.<br>
   4. Make sure you are on the the `CLIENT` tab at the top.<br>
-  5. 
-  
+  5. You will see a number of headings. Open each heading and take note of any containing the word `Characteristics`. <br>
+  Take a screen shot of this information.<br>
+    
 </details>
 
 <details>
