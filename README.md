@@ -69,6 +69,7 @@ e.g. <a href="https://www.google.com/search?q=samsung+s22+enable+developer+mode"
 <summary>iOS BLE Snooping</summary>
   
 1.  Coming Soon
+Resources - https://www.bluetooth.com/blog/a-new-way-to-debug-iosbluetooth-applications/
   
 </details>
 
